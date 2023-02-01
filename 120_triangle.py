@@ -1,7 +1,5 @@
 class Solution:
     def minimumTotal(self, triangle):
-        total =0
-        found_ind = 0
         #  the best way to approach this is to iterate from the bottom of the triangle.
         for i in reversed(range(len(triangle))):
             if i < len(triangle)-1:
